@@ -175,7 +175,7 @@ header {
         }
         .card-back {
           position: absolute;
-          background-image: none;
+          background: none;
           height: 160px;
           width: 100%;
           transform: rotateY(180deg);
@@ -269,6 +269,11 @@ header {
       .social a {
         text-decoration: none;
         font-size: 4em;
+        transition: text-shadow 1s;
+      }
+      .social a:hover {
+        text-decoration: none;
+        text-shadow: 0px 0px 10px red;
       }
     
   .copy {
@@ -277,7 +282,7 @@ header {
       font-size: .9em;
   }
 
-  @media only screen and (max-width: 860px){
+  @media only screen and (max-width: 859px){
     .menu {
       position: absolute;
     }
@@ -298,6 +303,11 @@ header {
         padding: .3em;
         
       }
+      .card-back {
+        height: auto;
+        font-size: small;
+        padding: 1em;
+    }
   
     .logo{
       width: auto;
