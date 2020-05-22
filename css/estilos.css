@@ -277,7 +277,7 @@ header {
       font-size: .9em;
   }
 
-  @media only screen and (max-width: 766px){
+  @media only screen and (max-width: 860px){
     .menu {
       position: absolute;
     }
@@ -330,7 +330,7 @@ header {
     }
   }
 
-@media (min-width: 766px) {
+@media (min-width: 860px) {
     .portfolio .grid {
       grid-template-columns: repeat(3, 260px);
       align-content: center;
