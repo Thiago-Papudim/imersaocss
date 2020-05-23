@@ -294,7 +294,7 @@ header {
     .portfolio{
       text-transform: uppercase;
       text-align: center;
-      margin: 1em;
+      margin: -1em;
       display: block;
     }
       .portfolio img{
@@ -307,7 +307,9 @@ header {
         height: auto;
         font-size: small;
         padding: 1em;
-    }
+        top: 50%;
+        bottom: 50%;
+      }
   
     .logo{
       width: auto;
