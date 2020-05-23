@@ -281,6 +281,13 @@ header {
       padding: 1em;
       font-size: .9em;
   }
+  .copy a{
+    text-decoration: none;
+    color: black;
+  }
+  .copy a:hover {
+    text-decoration: underline;
+  }
 
   @media only screen and (max-width: 859px){
     .menu {
