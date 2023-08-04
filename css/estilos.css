@@ -219,6 +219,7 @@ header {
       left: 50%;
       margin-left: -21px;
       background: url(https://www.svgrepo.com/show/19396/email.svg) no-repeat center 0;
+      color: white;
       width: 43px;
       height: 40px;
       -webkit-transition: all 0.2s ease-in-out;
