@@ -209,7 +209,7 @@ header {
   }
   .email a:hover {
       text-decoration: none;
-      color: black;
+      color: withe;
       opacity: 1;
   }
   .email span {
@@ -235,7 +235,7 @@ header {
       top: 110px;
       left: 50px;
       right: 50px;
-      color: black;
+      color: withe;
       opacity: 0;
       -webkit-transition: all 0.2s ease-out;
       transition: all 0.2s ease-out;
