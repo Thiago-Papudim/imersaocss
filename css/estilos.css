@@ -209,7 +209,7 @@ header {
   }
   .email a:hover {
       text-decoration: none;
-      color: withe;
+      color: black;
       opacity: 1;
   }
   .email span {
@@ -218,7 +218,7 @@ header {
       top: 100px;
       left: 50%;
       margin-left: -21px;
-      background: url(https://www.svgrepo.com/show/19396/email.svg) no-repeat center 0;
+      background: url(https://www.svgrepo.com/show/19396/email.svg);
       width: 43px;
       height: 40px;
       -webkit-transition: all 0.2s ease-in-out;
@@ -235,7 +235,7 @@ header {
       top: 110px;
       left: 50px;
       right: 50px;
-      color: withe;
+      color: black;
       opacity: 0;
       -webkit-transition: all 0.2s ease-out;
       transition: all 0.2s ease-out;
