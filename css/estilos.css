@@ -346,7 +346,8 @@ header {
   }  
     .social .icons {
       width: 80%;
-      margin: auto;  
+      margin: auto;
+      justify-content: center;
     }
   }
 
