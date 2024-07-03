@@ -146,6 +146,10 @@ header {
     .portfolio figure {
         text-align: center;
     }
+
+    .portfolio h3 {
+      margin-bottom: 40px;
+    }
     
     .img-portfolio {
         height: 180px;
@@ -190,6 +194,57 @@ header {
         .card-back a:hover {
           text-decoration: underline;
         }
+
+      .orcamentos {
+        background: #fff;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 2rem;
+      }
+      
+      .orcamentos .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      .orcamentos .column {
+        flex: 1;
+        min-width: 200px;
+      }
+      
+      .orcamentos .orcamentos-img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      .orcamentos h3 {
+        margin-bottom: 1rem;
+      }
+      
+      .orcamentos p {
+        margin-bottom: 10rem;
+      }
+      
+      .orcamentos-btn {
+        background-color: #ff4500;
+        color: #fff;
+        padding: 0.75rem 1.5rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        text-decoration: none;
+      }
+      
+      .orcamentos-btn:hover {
+        background-color: #e03e00;
+      }
 
     .email {
       background-size: 50px 30px;
