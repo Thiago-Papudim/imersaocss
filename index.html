@@ -47,7 +47,7 @@
                 <div class="sum">
                     <h3>Thiago Soares</h3>
                     Nome: Thiago Augusto Alves Soares. <br>
-                    Idade: 37 anos. <br>
+                    Idade: <span id="idade"></span> anos. <br>
                     Estado Civil: Solteiro. <br>
                     Naturalidade: João Pessoa - PB. <br>
                     Desenvolvedor Full Stack Python cursado na EBAC – Escola Britânica de Artes Criativas e Tecnologia, corretor Imobiliário cursado no CejaPro, formado em Administração de Empresas – pelo Centro Universitário de João Pessoa.
@@ -261,5 +261,24 @@
             </div>
         </section>
     </footer>
+
+    <script>
+        function calcularIdade(dataNascimento) {
+            const hoje = new Date();
+            const nascimento = new Date(dataNascimento);
+            let idade = hoje.getFullYear() - nascimento.getFullYear();
+            const mes = hoje.getMonth() - nascimento.getMonth();
+            if (mes < 0 || (mes === 0 && hoje.getDate() < nascimento.getDate())) {
+                idade--;
+            }
+            return idade;
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const dataNascimento = "1987-06-25";
+            const idade = calcularIdade(dataNascimento);
+            document.getElementById("idade").textContent = idade;
+        });
+    </script>
 </body>
 </html>
