@@ -347,23 +347,8 @@ header {
 
   @media only screen and (max-width: 859px){
     .menu {
-      position: absolute;
-    }
-    
-    .menu-logo{
       display: none;
     }
-
-    .menu ul {
-	display: block;
-        flex-direction: column;
-        align-items: center;
-      }
-
-    .menu a {
-        font-size: 0.9em;
-        padding: 0.5em;
-      }
   
     .portfolio{
       text-transform: uppercase;
