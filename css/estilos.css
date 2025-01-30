@@ -5,7 +5,11 @@
 }
 
 body {
-  background-image: #FFFFFF;
+  background-image: url(../assets/onda-de-design-abstrato-moderno-gradiente-de-fundo-branco_343694-2337.jpg);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   font-family: courier new;
 }
 
@@ -59,7 +63,7 @@ header {
       }
     
       .soares:hover {
-        background: white;
+        background: none;
         color: black;
         text-decoration: underline;
       }
@@ -68,7 +72,7 @@ header {
       text-align: right;
       padding: 0.3em;
       font-family: 'Reenie Beanie', cursive;
-      margin-top: 6em;
+      margin-top: 12em;
       font-size: 2em;
       transform: scale(0.2) translateY(30vh);
       opacity: 0;
@@ -83,11 +87,11 @@ header {
   }
 
   .logo {
-      width: 14%;
-      height: 27%;
-      margin: 9em 0.2em;
-      border: solid .1em;
-      border-radius: 3em;
+    width: 14%;
+    height: 27%;
+    margin: 22em 0.2em;
+    border: solid .1em;
+    border-radius: 3em;
   }
 
   .sobre-title {
@@ -195,7 +199,6 @@ header {
         }
 
       .orcamentos {
-        background: #fff;
         padding: 2rem;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -272,7 +275,7 @@ header {
       top: 100px;
       left: 50%;
       margin-left: -21px;
-      background: url(https://png.pngtree.com/png-vector/20190927/ourmid/pngtree-email-icon-png-image_1757854.jpg) no-repeat center 0;
+      background: url(../assets/email.png) no-repeat center 0;
       background-size: 40px;
       width: 43px;
       height: 40px;
