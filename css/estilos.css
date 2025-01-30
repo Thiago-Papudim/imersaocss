@@ -136,11 +136,13 @@ header {
         padding: 2em;
         min-height: 100vh;
         text-align: center;
+        margin-top: 6em;
     }
     
     .portfolio .grid {
         display: grid;
-        gap: 4em;
+        gap: 6em;
+        row-gap: 10em;
     }
     
     .portfolio figure {
@@ -148,7 +150,7 @@ header {
     }
 
     .portfolio h3 {
-      margin-bottom: 40px;
+      margin-bottom: 100px;
     }
     
     .img-portfolio {
@@ -394,6 +396,11 @@ header {
         margin-bottom: 50px;
         padding: 0 20px;
   }
+
+  .orcamentos {
+    margin-top: 6rem;
+  }
+
   .social{
     display: flex;
     justify-content: center;
